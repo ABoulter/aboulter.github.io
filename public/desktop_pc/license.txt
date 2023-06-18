@@ -1,0 +1,8 @@
+Model Information:
+* title:	Old Computer
+* source:	https://sketchfab.com/3d-models/old-computer-40ce7593655b454ba576033afb08d925
+* author:	Jaton24 (https://sketchfab.com/Jaton24)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

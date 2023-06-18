@@ -23,11 +23,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-src/components/contact.jsx
 package-lock.json
 
 #assets
 
-Assets
-desktop_pc
-planet
+
