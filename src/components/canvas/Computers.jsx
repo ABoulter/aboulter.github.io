@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 40 : 60}
-        position={isMobile ? [0, -2, -0.5] : [0, -3.25, -1]}
+        position={isMobile ? [0, -2, 0] : [0, -3.25, 0]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -54,6 +54,8 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          autoRotate
+          autoRotateSpeed={-0.3}
         />
         <Computers isMobile={isMobile} />
       </Suspense>

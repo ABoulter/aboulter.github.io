@@ -4,7 +4,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -16,16 +15,21 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-center bg-no-repeat bg-cover bg-hero-pattern">
           <Navbar />
           <Hero />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className="relative z-0">
+        <div className="bg-center bg-no-repeat bg-cover bg-section-pattern">
+          <About />
+        </div>
+        <div className="bg-center bg-no-repeat bg-cover bg-section2-pattern">
+          <Experience />
+          <Tech />
+        </div>
+        <div className="bg-center bg-no-repeat bg-cover bg-section4-pattern">
+          <Works />
+        </div>
+        <div className="relative z-0 bg-center bg-no-repeat bg-cover bg-section3-pattern">
           <Contact />
           <StarsCanvas />
         </div>
